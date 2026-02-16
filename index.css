@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+}
+
+.bg-container{
+    background-image: url("https://wallpaperaccess.com/full/767567.jpg");
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.head{
+    font-family: "Inter";
+    color:#ffffff;
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: 30vh;
+    text-align: center;
+}
+
+.btn{
+    height: 5vh;
+    width: 15vh;
+    font-family: "Roboto";
+    color:#ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid #83abb2;
+    border-radius: 6px;
+
+}
+
+.image-container{
+    display: none;
+}
+
+
+.image-container-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    height: 30vh;
+    width: 60vh;
+    margin: 20px;
+    border-radius: 6px;
+}
+
